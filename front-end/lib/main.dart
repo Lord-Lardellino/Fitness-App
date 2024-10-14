@@ -6,8 +6,6 @@ import 'package:memos_app/home_page.dart';
 import 'package:memos_app/utilities/nofication_manager.dart';
 import 'package:get/get.dart';
 import 'package:memos_app/utilities/theme.dart';
-import 'utilities/dependencies.dart' as dependencies;
-import 'utilities/routes.dart' as routes;
 import 'package:timezone/data/latest.dart' as tz;
 
 void main() {
