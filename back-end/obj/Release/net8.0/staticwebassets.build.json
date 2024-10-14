@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "rVQgJ3MZYe0Fu+KdLpF9h4mUkizPXAe4ZO4CDwhPp1s=",
+  "Source": "Sql-BackEnd",
+  "BasePath": "_content/Sql-BackEnd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Lavoro\Publicazioni\Sql-BackEnd</_PublishTargetUrl>
+    <History>True|2024-09-21T16:01:19.8285174Z||;True|2024-09-21T17:46:06.1748675+02:00||;True|2024-09-21T17:37:56.9129774+02:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=VMI689934\SQLEXPRESS%3bDatabase=Test_Sql_BackEnd%3bUser Id=sa%3bPassword=Admin123!%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Sql_BackEnd.Data.ApplicationDbContext">
+      <Value>Server=VMI689934\SQLEXPRESS%3bDatabase=Test_Sql_BackEnd%3bUser Id=sa%3bPassword=Admin123!%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
