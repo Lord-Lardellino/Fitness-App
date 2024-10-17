@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 import 'package:memos_app/dialogs/add_memo_dialog.dart';
 import 'package:memos_app/dialogs/delete_memo_dialog.dart';
 import 'package:memos_app/dialogs/sign_out_dialog.dart';
-import 'utilities/dependencies.dart' as dependencies;
+import 'controllers/dependencies_controller.dart' as dependencies;
 
 class MemoCard extends StatelessWidget {
   final String timeStamp;

@@ -1,11 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:go_router/go_router.dart';
-import 'package:memos_app/Controllers/theme_controller.dart';
-import 'package:memos_app/utilities/dependencies.dart' as dependencies;
-import 'package:memos_app/utilities/routes.dart';
-import 'package:memos_app/widgets/input_field.dart';
-import 'package:memos_app/widgets/rounded_button.dart';
+import 'package:memos_app/controllers/theme_controller.dart';
 import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
 
 class MainWrapper extends StatefulWidget {

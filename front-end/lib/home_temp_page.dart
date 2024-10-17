@@ -5,7 +5,7 @@ import 'package:get/get.dart';
 import 'package:jwt_decoder/jwt_decoder.dart';
 import 'package:memos_app/dialogs/create_account_dialog.dart';
 import 'package:memos_app/dialogs/sign_in_dialog.dart';
-import 'package:memos_app/utilities/dependencies.dart' as dependencies;
+import 'package:memos_app/controllers/dependencies_controller.dart' as dependencies;
 import 'package:http/http.dart' as http;
 
 class HomePage extends StatefulWidget {

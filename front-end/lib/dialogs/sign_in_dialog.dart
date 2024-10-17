@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:memos_app/utilities/dependencies.dart' as dependencies;
+import 'package:memos_app/controllers/dependencies_controller.dart' as dependencies;
 
 class SignInDialog extends StatefulWidget {
   const SignInDialog({super.key});

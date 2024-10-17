@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:memos_app/utilities/nofication_manager.dart';
-import 'Widgets/rounded_button.dart';
+import '../Widgets/rounded_button.dart';
 
 class NotificationTest extends StatefulWidget {
   const NotificationTest({super.key});

@@ -2,7 +2,7 @@ import 'package:get/get.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
-import 'base_url.dart';
+import '../utilities/base_url.dart';
 
 class AuthController extends GetxController {
   final createAccountUrl = Uri.parse('$baseUrl/api/users/create-account');
