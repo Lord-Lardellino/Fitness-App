@@ -36,36 +36,7 @@ class _MainWrapperState extends State<MainWrapper> {
         height: double.infinity,
         child: widget.navigationShell,
       ),
-      bottomNavigationBar: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 25),
-        child: SlidingClippedNavBar(
-          backgroundColor: context.theme.scaffoldBackgroundColor,
-          activeColor: context.theme.primaryColor,
-          onButtonPressed: (index) {
-            setState(() {
-              selectedIndex = index;
-            });
-            _goToBranch(selectedIndex);
-          },
-          fontSize: 16,
-          iconSize: 30,
-          selectedIndex: selectedIndex,
-          barItems: [
-            BarItem(
-              icon: Icons.home,
-              title: 'Home',
-            ),
-            BarItem(
-              icon: Icons.note_add,
-              title: 'Appointments',
-            ),
-            BarItem(
-              icon: Icons.manage_accounts,
-              title: 'Profile',
-            ),
-          ],
-        ),
-      ),
+      //bottomNavigationBar: bottomBar(),
     );
   }
 
@@ -88,6 +59,39 @@ class _MainWrapperState extends State<MainWrapper> {
               }),
         )
       ],
+    );
+  }
+
+  bottomBar() {
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 25),
+      child: SlidingClippedNavBar(
+        backgroundColor: context.theme.scaffoldBackgroundColor,
+        activeColor: context.theme.primaryColor,
+        onButtonPressed: (index) {
+          setState(() {
+            selectedIndex = index;
+          });
+          _goToBranch(selectedIndex);
+        },
+        fontSize: 16,
+        iconSize: 30,
+        selectedIndex: selectedIndex,
+        barItems: [
+          BarItem(
+            icon: Icons.home,
+            title: 'Home',
+          ),
+          BarItem(
+            icon: Icons.note_add,
+            title: 'Appointments',
+          ),
+          BarItem(
+            icon: Icons.manage_accounts,
+            title: 'Profile',
+          ),
+        ],
+      ),
     );
   }
 }
