@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:memos_app/utilities/navigaton_manager.dart';
-import 'package:memos_app/widgets/card_widget.dart';
+import 'package:memos_app/widgets/button_widget.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({super.key});
@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            CardWidget(
+            ButtonWidget(
                 title: '1 - Sistemi lineari e matrici',
                 url: NavigationManager.sistemiLineariMatrici),
           ],

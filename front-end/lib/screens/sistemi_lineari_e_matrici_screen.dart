@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:memos_app/utilities/navigaton_manager.dart';
-import 'package:memos_app/widgets/card_widget.dart';
+import 'package:memos_app/widgets/button_widget.dart';
 
 class SistemiLineariMatriciSceen extends StatefulWidget {
   SistemiLineariMatriciSceen({super.key});
@@ -25,11 +25,11 @@ class _SistemiLineariMatriciSceenState
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
 
-            CardWidget(
+            ButtonWidget(
                 title: '1.1 - Principali insiemi numerici',
                 url: NavigationManager.principaliInsiemiNumerici),
 
-            CardWidget(
+            ButtonWidget(
                 title: '1.2 - Equazioni algebriche',
                 url: NavigationManager.equazioniAlgebriche),
           ],

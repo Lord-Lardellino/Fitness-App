@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:memos_app/widgets/title_widget.dart';
 
 class EquazioniAlgebricheScreen extends StatefulWidget {
   EquazioniAlgebricheScreen({super.key});
@@ -12,13 +13,16 @@ class _EquazioniAlgebricheScreenState extends State<EquazioniAlgebricheScreen> {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Text('Equazioni algebriche'),
+            TitleWidget(title: 'Equazioni algebriche',fontSize: 24,fontWeight: FontWeight.bold),
+            SizedBox(height: MediaQuery.of(context).size.width / 10,),
+            TitleWidget(title: '1.1 Teorema Fondamentale dell Algebra ',fontSize: 18,fontWeight: FontWeight.bold),        
+            TitleWidget(title: 'Ogni polinomio complesso di grado maggiore o uguale a 1 possiede almeno una radice complessa.',fontSize: 14),
           ],
         ),
       ),
